@@ -105,7 +105,7 @@ var whichColor=Math.round(Math.random()*(C-1));
 function share() {
     var title = meta;
     var summary = 'Adiós 2017... Hola 2018...';
-    var url = 'https://triangle.mx';
+    var url = 'https://2018.triangle.mx/';
     var image = 'https://res.cloudinary.com/dfotkok8k/image/upload/v1514520921/fb-preview_o2rloi.png';
     var fb = window.open('http://www.facebook.com/sharer.php?s=100&p[title]='+encodeURIComponent(title)+'&p[url]='+encodeURIComponent(url)+'&p[summary]='+encodeURIComponent(summary)+'&p[images][0]='+encodeURIComponent(image));
     fb.focus();
